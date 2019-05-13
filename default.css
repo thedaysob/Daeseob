@@ -1,0 +1,99 @@
+body {
+  background-color: #ffffff;
+  color: #202020;
+  font-family: "Lora", serif;
+  position: relative;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto; }
+
+h1 {
+  display: inline;
+  color: #b0000e;
+  font-family: "Lato";
+  font-size: 20px; }
+
+h2 {
+  font-family: "Lato";
+  font-size: 18px; }
+
+a {
+  color: #b0000e;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+hr {
+  color: #808080;
+  background-color: #808080;
+  border: 0px;
+  height: 2px;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+#title {
+  display: inline;
+  color: #b0000e;
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 30px; }
+
+#nav {
+  display: inline;
+  position: absolute;
+  right: 0px;
+  top: 1em;
+  color: #505050;
+  font-family: "Lato"; }
+  #nav a {
+    color: #505050; }
+
+#subnav {
+  display: inline;
+  position: absolute;
+  right: 0px;
+  color: #505050;
+  font-family: "Lato"; }
+  #subnav a {
+    color: #505050; }
+
+#content {
+  position: relative;
+  width: 100%; }
+  #content img {
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto; }
+  #content hr {
+    width: 40%;
+    height: 1px; }
+  #content .floater {
+    margin-left: 30px;
+    float: right; }
+
+.postinfo {
+  font-size: 12px;
+  font-family: "Lato"; }
+
+#postlinks {
+  position: relative;
+  font-size: 12px;
+  font-family: "Lato";
+  height: 1em; }
+  #postlinks .previouslink {
+    position: absolute;
+    left: 0px; }
+  #postlinks .nextlink {
+    position: absolute;
+    right: 0px; }
+
+#footer {
+  font-size: 10px;
+  font-family: "Lato"; }
+
+#socialicons {
+  display: inline;
+  position: absolute;
+  right: 0px; }
